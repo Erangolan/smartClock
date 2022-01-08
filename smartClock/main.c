@@ -1,10 +1,3 @@
-/*
- * File:   LabC2.c
- * Author: Amit
- *
- * Created on April 11, 2021, 16:17
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -333,12 +326,12 @@ int main(void) {
     
 oledC_DrawLine(45, 45, 55, 55, 2, OLEDC_COLOR_BLACK);
 
-//    while(1) {
-//        if (checkLed1Pressed()){
-//            handleLed1();
-//            if (counter > 1)
-//                displayMenu();
-//        }
-//    }
+while(1) {
+    if (checkLed1Pressed()){
+        handleLed1();
+        if (counter > 1)
+            displayMenu();
+    }
+}
 }
 
